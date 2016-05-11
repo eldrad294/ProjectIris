@@ -1,0 +1,76 @@
+﻿@model ProjectIris.Models.purchases_log
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<div class="container-fluid">
+    <div class="side-body">
+        <div class="page-title">
+            <span class="title">Accounts Log Table</span>
+            <div class="description">Accounts Log Data Table</div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">
+                            <div class="title">Table</div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div>
+                            <h4>purchases_log</h4>
+                            <hr />
+                            <dl class="dl-horizontal">
+                                <dt>
+                                    @Html.DisplayNameFor(model => model.dateofpurchase)
+                                </dt>
+
+                                <dd>
+                                    @Html.DisplayFor(model => model.dateofpurchase)
+                                </dd>
+
+                                <dt>
+                                    @Html.DisplayNameFor(model => model.employeeid)
+                                </dt>
+
+                                <dd>
+                                    @Html.DisplayFor(model => model.employeeid)
+                                </dd>
+
+                                <dt>
+                                    @Html.DisplayNameFor(model => model.amount)
+                                </dt>
+
+                                <dd>
+                                    @Html.DisplayFor(model => model.amount)
+                                </dd>
+
+                                <dt>
+                                    @Html.DisplayNameFor(model => model.accountnumber)
+                                </dt>
+
+                                <dd>
+                                    @Html.DisplayFor(model => model.accountnumber)
+                                </dd>
+
+                                <dt>
+                                    @Html.DisplayNameFor(model => model.message)
+                                </dt>
+
+                                <dd>
+                                    @Html.DisplayFor(model => model.message)
+                                </dd>
+
+                            </dl>
+                        </div>
+                        <p>
+                            @Html.ActionLink("Back to List", "Index")
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

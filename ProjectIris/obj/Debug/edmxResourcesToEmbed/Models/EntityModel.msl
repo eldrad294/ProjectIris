@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="IrisBankModelStoreContainer" CdmEntityContainer="IrisBankEntities1">
+    <EntitySetMapping Name="accounts">
+      <EntityTypeMapping TypeName="IrisBankModel.account">
+        <MappingFragment StoreEntitySet="accounts">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="clientid" ColumnName="clientid" />
+          <ScalarProperty Name="accountnumber" ColumnName="accountnumber" />
+          <ScalarProperty Name="accounttype" ColumnName="accounttype" />
+          <ScalarProperty Name="accountowner" ColumnName="accountowner" />
+          <ScalarProperty Name="branchname" ColumnName="branchname" />
+          <ScalarProperty Name="swiftcode" ColumnName="swiftcode" />
+          <ScalarProperty Name="iban" ColumnName="iban" />
+          <ScalarProperty Name="pin" ColumnName="pin" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="clients">
+      <EntityTypeMapping TypeName="IrisBankModel.client">
+        <MappingFragment StoreEntitySet="clients">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="clientidnumber" ColumnName="clientidnumber" />
+          <ScalarProperty Name="iriscode" ColumnName="iriscode" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="fname" ColumnName="fname" />
+          <ScalarProperty Name="lname" ColumnName="lname" />
+          <ScalarProperty Name="ssnumber" ColumnName="ssnumber" />
+          <ScalarProperty Name="dateofbirth" ColumnName="dateofbirth" />
+          <ScalarProperty Name="maritalstatus" ColumnName="maritalstatus" />
+          <ScalarProperty Name="employment" ColumnName="employment" />
+          <ScalarProperty Name="emailaddress" ColumnName="emailaddress" />
+          <ScalarProperty Name="residentaddress" ColumnName="residentaddress" />
+          <ScalarProperty Name="country" ColumnName="country" />
+          <ScalarProperty Name="postcode" ColumnName="postcode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="employees">
+      <EntityTypeMapping TypeName="IrisBankModel.employee">
+        <MappingFragment StoreEntitySet="employees">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="idnumber" ColumnName="idnumber" />
+          <ScalarProperty Name="fname" ColumnName="fname" />
+          <ScalarProperty Name="sname" ColumnName="sname" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="employeetypeid" ColumnName="employeetypeid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="employees_types">
+      <EntityTypeMapping TypeName="IrisBankModel.employees_types">
+        <MappingFragment StoreEntitySet="employees_types">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="type" ColumnName="type" />
+          <ScalarProperty Name="roledescription" ColumnName="roledescription" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vendors">
+      <EntityTypeMapping TypeName="IrisBankModel.vendor">
+        <MappingFragment StoreEntitySet="vendors">
+          <ScalarProperty Name="vendorid" ColumnName="vendorid" />
+          <ScalarProperty Name="vendoridnumber" ColumnName="vendoridnumber" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="fname" ColumnName="fname" />
+          <ScalarProperty Name="lname" ColumnName="lname" />
+          <ScalarProperty Name="ssnumber" ColumnName="ssnumber" />
+          <ScalarProperty Name="dateofbirth" ColumnName="dateofbirth" />
+          <ScalarProperty Name="employment" ColumnName="employment" />
+          <ScalarProperty Name="nationality" ColumnName="nationality" />
+          <ScalarProperty Name="emailaddress" ColumnName="emailaddress" />
+          <ScalarProperty Name="residentaddress" ColumnName="residentaddress" />
+          <ScalarProperty Name="shopaddress" ColumnName="shopaddress" />
+          <ScalarProperty Name="country" ColumnName="country" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="accounts_log">
+      <EntityTypeMapping TypeName="IrisBankModel.accounts_log">
+        <MappingFragment StoreEntitySet="accounts_log">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="datecreated" ColumnName="datecreated" />
+          <ScalarProperty Name="accountnumber" ColumnName="accountnumber" />
+          <ScalarProperty Name="message" ColumnName="message" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="clients_log">
+      <EntityTypeMapping TypeName="IrisBankModel.clients_log">
+        <MappingFragment StoreEntitySet="clients_log">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="datecreated" ColumnName="datecreated" />
+          <ScalarProperty Name="clientidnumber" ColumnName="clientidnumber" />
+          <ScalarProperty Name="message" ColumnName="message" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="employees_log">
+      <EntityTypeMapping TypeName="IrisBankModel.employees_log">
+        <MappingFragment StoreEntitySet="employees_log">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="datecreated" ColumnName="datecreated" />
+          <ScalarProperty Name="employeeid" ColumnName="employeeid" />
+          <ScalarProperty Name="message" ColumnName="message" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vendor_log">
+      <EntityTypeMapping TypeName="IrisBankModel.vendor_log">
+        <MappingFragment StoreEntitySet="vendor_log">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="datecreated" ColumnName="datecreated" />
+          <ScalarProperty Name="vendoridnumber" ColumnName="vendoridnumber" />
+          <ScalarProperty Name="message" ColumnName="message" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="database_firewall_rules">
+      <EntityTypeMapping TypeName="IrisBankModel.database_firewall_rules">
+        <MappingFragment StoreEntitySet="database_firewall_rules">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="start_ip_address" ColumnName="start_ip_address" />
+          <ScalarProperty Name="end_ip_address" ColumnName="end_ip_address" />
+          <ScalarProperty Name="create_date" ColumnName="create_date" />
+          <ScalarProperty Name="modify_date" ColumnName="modify_date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,569 @@
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\ApplicationInsights.config
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\roslyn\csc.exe
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\roslyn\vbc.exe
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\roslyn\VBCSCompiler.exe
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\ProjectIris.dll.config
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\ProjectIris.dll
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\ProjectIris.pdb
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\Antlr3.Runtime.dll
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\EntityFramework.dll
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\EntityFramework.SqlServer.dll
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.AI.Web.dll
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.ApplicationInsights.dll
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Owin.dll
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.dll
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\Newtonsoft.Json.dll
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\Owin.dll
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\System.Web.Helpers.dll
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\System.Web.Mvc.dll
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\System.Web.Optimization.dll
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\System.Web.Razor.dll
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\System.Web.WebPages.Deployment.dll
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\System.Web.WebPages.dll
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\System.Web.WebPages.Razor.dll
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\WebGrease.dll
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.AI.Web.xml
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.ApplicationInsights.xml
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\System.Web.Helpers.xml
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\System.Web.Mvc.xml
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\System.Web.Optimization.xml
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\System.Web.Razor.xml
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\System.Web.WebPages.xml
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\System.Web.WebPages.Deployment.xml
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\System.Web.WebPages.Razor.xml
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\Antlr3.Runtime.pdb
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\Newtonsoft.Json.xml
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\EntityFramework.xml
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\EntityFramework.SqlServer.xml
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Owin.xml
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.xml
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\obj\Debug\ProjectIris.csprojResolveAssemblyReference.cache
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\obj\Debug\ProjectIris.dll
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\obj\Debug\ProjectIris.pdb
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\roslyn\csc.exe.config
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\roslyn\csc.rsp
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\roslyn\csi.exe
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\roslyn\csi.rsp
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\roslyn\System.AppContext.dll
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\roslyn\System.Console.dll
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\roslyn\vbc.exe.config
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\roslyn\vbc.rsp
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\IronPython.dll
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\IronPython.Modules.dll
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\IronPython.SQLite.dll
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\IronPython.Wpf.dll
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Dynamic.dll
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Scripting.AspNet.dll
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Scripting.dll
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Scripting.Metadata.dll
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\IronPython.xml
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\IronPython.Modules.xml
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\IronPython.SQLite.xml
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\IronPython.Wpf.xml
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Dynamic.xml
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Scripting.xml
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Scripting.AspNet.xml
+C:\Users\eldrad294\documents\visual studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Scripting.Metadata.xml
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\ApplicationInsights.config
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\roslyn\csc.exe
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\roslyn\csc.exe.config
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\roslyn\csc.rsp
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\roslyn\csi.exe
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\roslyn\csi.rsp
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\roslyn\System.AppContext.dll
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\roslyn\System.Console.dll
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\roslyn\vbc.exe
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\roslyn\vbc.exe.config
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\roslyn\vbc.rsp
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\roslyn\VBCSCompiler.exe
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\ProjectIris.dll.config
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\ProjectIris.dll
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\ProjectIris.pdb
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\Antlr3.Runtime.dll
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\EntityFramework.dll
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\EntityFramework.SqlServer.dll
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\IronPython.dll
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\IronPython.Modules.dll
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\IronPython.SQLite.dll
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\IronPython.Wpf.dll
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.AI.Web.dll
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.ApplicationInsights.dll
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Dynamic.dll
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Owin.dll
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.dll
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Scripting.AspNet.dll
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Scripting.dll
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Scripting.Metadata.dll
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\Newtonsoft.Json.dll
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\Owin.dll
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\System.Web.Helpers.dll
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\System.Web.Mvc.dll
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\System.Web.Optimization.dll
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\System.Web.Razor.dll
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\System.Web.WebPages.Deployment.dll
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\System.Web.WebPages.dll
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\System.Web.WebPages.Razor.dll
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\WebGrease.dll
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\Antlr3.Runtime.pdb
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\IronPython.xml
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\IronPython.Modules.xml
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\IronPython.SQLite.xml
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\IronPython.Wpf.xml
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.AI.Web.xml
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.ApplicationInsights.xml
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Dynamic.xml
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Scripting.xml
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Scripting.AspNet.xml
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Scripting.Metadata.xml
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\Newtonsoft.Json.xml
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\System.Web.Helpers.xml
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\System.Web.Mvc.xml
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\System.Web.Optimization.xml
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\System.Web.Razor.xml
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\System.Web.WebPages.xml
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\System.Web.WebPages.Deployment.xml
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\System.Web.WebPages.Razor.xml
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\EntityFramework.xml
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\EntityFramework.SqlServer.xml
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Owin.xml
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.xml
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\obj\Debug\ProjectIris.csprojResolveAssemblyReference.cache
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\obj\Debug\ProjectIris.dll
+C:\Users\eldrad294\Documents\VisualStudio2015\Projects\ProjectIris\ProjectIris\obj\Debug\ProjectIris.pdb
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\ApplicationInsights.config
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\roslyn\csc.exe
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\roslyn\csc.exe.config
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\roslyn\csc.rsp
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\roslyn\csi.exe
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\roslyn\csi.rsp
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\roslyn\System.AppContext.dll
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\roslyn\System.Console.dll
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\roslyn\vbc.exe
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\roslyn\vbc.exe.config
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\roslyn\vbc.rsp
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\roslyn\VBCSCompiler.exe
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\ProjectIris.dll.config
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\ProjectIris.dll
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\ProjectIris.pdb
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\Antlr3.Runtime.dll
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\EntityFramework.dll
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\EntityFramework.SqlServer.dll
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\IronPython.dll
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\IronPython.Modules.dll
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\IronPython.SQLite.dll
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\IronPython.Wpf.dll
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\Microsoft.AI.Web.dll
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\Microsoft.ApplicationInsights.dll
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\Microsoft.Dynamic.dll
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\Microsoft.Owin.dll
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.dll
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\Microsoft.Scripting.AspNet.dll
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\Microsoft.Scripting.dll
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\Microsoft.Scripting.Metadata.dll
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\Newtonsoft.Json.dll
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\Owin.dll
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\System.Web.Helpers.dll
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\System.Web.Mvc.dll
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\System.Web.Optimization.dll
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\System.Web.Razor.dll
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\System.Web.WebPages.Deployment.dll
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\System.Web.WebPages.dll
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\System.Web.WebPages.Razor.dll
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\WebGrease.dll
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\Antlr3.Runtime.pdb
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\IronPython.xml
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\IronPython.Modules.xml
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\IronPython.SQLite.xml
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\IronPython.Wpf.xml
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\Microsoft.AI.Web.xml
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\Microsoft.ApplicationInsights.xml
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\Microsoft.Dynamic.xml
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\Microsoft.Scripting.xml
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\Microsoft.Scripting.AspNet.xml
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\Microsoft.Scripting.Metadata.xml
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\Newtonsoft.Json.xml
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\System.Web.Helpers.xml
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\System.Web.Mvc.xml
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\System.Web.Optimization.xml
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\System.Web.Razor.xml
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\System.Web.WebPages.xml
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\System.Web.WebPages.Deployment.xml
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\System.Web.WebPages.Razor.xml
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\EntityFramework.xml
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\EntityFramework.SqlServer.xml
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\Microsoft.Owin.xml
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.xml
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\obj\Debug\ProjectIris.csprojResolveAssemblyReference.cache
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\obj\Debug\ProjectIris.dll
+C:\Users\eldrad294\Desktop\ProjectIris\ProjectIris\obj\Debug\ProjectIris.pdb
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\ApplicationInsights.config
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\roslyn\csc.exe
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\roslyn\csc.exe.config
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\roslyn\csc.rsp
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\roslyn\csi.exe
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\roslyn\csi.rsp
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\roslyn\System.AppContext.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\roslyn\System.Console.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\roslyn\vbc.exe
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\roslyn\vbc.exe.config
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\roslyn\vbc.rsp
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\roslyn\VBCSCompiler.exe
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\ProjectIris.dll.config
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\ProjectIris.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\ProjectIris.pdb
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\Antlr3.Runtime.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\EntityFramework.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\EntityFramework.SqlServer.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\IronPython.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\IronPython.Modules.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\IronPython.SQLite.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\IronPython.Wpf.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.AI.Web.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.ApplicationInsights.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Dynamic.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Owin.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Scripting.AspNet.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Scripting.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Scripting.Metadata.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\Newtonsoft.Json.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\Owin.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\System.Web.Helpers.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\System.Web.Mvc.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\System.Web.Optimization.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\System.Web.Razor.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\System.Web.WebPages.Deployment.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\System.Web.WebPages.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\System.Web.WebPages.Razor.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\WebGrease.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\Antlr3.Runtime.pdb
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\IronPython.xml
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\IronPython.Modules.xml
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\IronPython.SQLite.xml
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\IronPython.Wpf.xml
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.AI.Web.xml
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.ApplicationInsights.xml
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Dynamic.xml
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Scripting.xml
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Scripting.AspNet.xml
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Scripting.Metadata.xml
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\Newtonsoft.Json.xml
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\System.Web.Helpers.xml
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\System.Web.Mvc.xml
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\System.Web.Optimization.xml
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\System.Web.Razor.xml
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\System.Web.WebPages.xml
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\System.Web.WebPages.Deployment.xml
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\System.Web.WebPages.Razor.xml
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\EntityFramework.xml
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\EntityFramework.SqlServer.xml
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Owin.xml
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.xml
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\obj\Debug\ProjectIris.csprojResolveAssemblyReference.cache
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\obj\Debug\ProjectIris.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\obj\Debug\ProjectIris.pdb
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\RestSharp.dll
+C:\Users\eldra\Documents\Visual Studio 2015\Projects\ProjectIris\ProjectIris\bin\RestSharp.xml
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\ApplicationInsights.config
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\roslyn\csc.exe
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\roslyn\csc.exe.config
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\roslyn\csc.rsp
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\roslyn\csi.exe
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\roslyn\csi.rsp
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\roslyn\System.AppContext.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\roslyn\System.Collections.Immutable.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\roslyn\System.Console.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\roslyn\System.IO.FileSystem.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\roslyn\System.Reflection.Metadata.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\roslyn\vbc.exe
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\roslyn\vbc.exe.config
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\roslyn\vbc.rsp
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\roslyn\VBCSCompiler.exe
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\roslyn\VBCSCompiler.exe.config
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\ProjectIris.dll.config
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\ProjectIris.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\ProjectIris.pdb
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\Antlr3.Runtime.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\EntityFramework.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\EntityFramework.SqlServer.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\IronPython.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\IronPython.Modules.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\IronPython.SQLite.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\IronPython.Wpf.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\Microsoft.AI.Agent.Intercept.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\Microsoft.AI.DependencyCollector.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\Microsoft.AI.Web.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\Microsoft.AI.WindowsServer.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\Microsoft.ApplicationInsights.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\Microsoft.AspNet.Identity.Core.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\Microsoft.Dynamic.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\Microsoft.Owin.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.Cookies.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.Facebook.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.Google.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.OAuth.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.Twitter.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\Microsoft.Scripting.AspNet.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\Microsoft.Scripting.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\Microsoft.Scripting.Metadata.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\Microsoft.Web.Infrastructure.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\Newtonsoft.Json.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\Owin.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\RestSharp.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\System.Web.Helpers.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\System.Web.Mvc.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\System.Web.Optimization.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\System.Web.Razor.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\System.Web.WebPages.Deployment.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\System.Web.WebPages.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\System.Web.WebPages.Razor.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\WebGrease.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\Antlr3.Runtime.pdb
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\IronPython.xml
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\IronPython.Modules.xml
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\IronPython.SQLite.xml
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\IronPython.Wpf.xml
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\Microsoft.AI.DependencyCollector.xml
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\Microsoft.AI.Web.xml
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\Microsoft.AI.WindowsServer.xml
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\Microsoft.ApplicationInsights.xml
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\Microsoft.Dynamic.xml
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\Microsoft.Scripting.xml
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\Microsoft.Scripting.AspNet.xml
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\Microsoft.Scripting.Metadata.xml
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\Newtonsoft.Json.xml
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\RestSharp.xml
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\System.Web.Helpers.xml
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\System.Web.Mvc.xml
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\System.Web.Optimization.xml
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\System.Web.Razor.xml
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\System.Web.WebPages.xml
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\System.Web.WebPages.Deployment.xml
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\System.Web.WebPages.Razor.xml
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\EntityFramework.xml
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\EntityFramework.SqlServer.xml
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\Microsoft.AspNet.Identity.Core.xml
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\Microsoft.Owin.xml
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.xml
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.Facebook.xml
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.Cookies.xml
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.OAuth.xml
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.Google.xml
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.Twitter.xml
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\obj\Debug\ProjectIris.csprojResolveAssemblyReference.cache
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\obj\Debug\ProjectIris.dll
+C:\inetpub\wwwroot\ProjectIris\ProjectIris\obj\Debug\ProjectIris.pdb

@@ -1,0 +1,65 @@
+﻿@model IEnumerable<ProjectIris.Models.clients_log>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<!-- Main Content -->
+<div class="container-fluid">
+    <div class="side-body">
+        <div class="page-title">
+            <span class="title">Client Log Table</span>
+            <div class="description">Client Log Data Table</div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">
+                            <div class="title">Table</div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <table class="table">
+                            <tr>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.datecreated)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.message)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.clientidnumber)
+                                </th>
+                                <th></th>
+                            </tr>
+
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.datecreated)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.message)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.clientidnumber)
+                                    </td>
+                                    <td>
+                                        @*@Html.ActionLink("Edit", "Edit", new { id = item.id }) |*@
+                                        @Html.ActionLink("Details", "Details", new { id = item.id }) 
+                                        @*@Html.ActionLink("Delete", "Delete", new { id = item.id })*@
+                                    </td>
+                                </tr>
+                            }
+
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

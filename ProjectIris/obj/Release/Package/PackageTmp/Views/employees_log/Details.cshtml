@@ -1,0 +1,63 @@
+﻿@model ProjectIris.Models.employees_log
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<!-- Main Content -->
+<div class="container-fluid">
+    <div class="side-body">
+        <div class="page-title">
+            <span class="title">Employees Log Table</span>
+            <div class="description">Employees Log Data Table</div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">
+                            <div class="title">Table</div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div>
+                            <dl class="dl-horizontal">
+                                <dt>
+                                    @Html.DisplayNameFor(model => model.datecreated)
+                                </dt>
+
+                                <dd>
+                                    @Html.DisplayFor(model => model.datecreated)
+                                </dd>
+
+                                <dt>
+                                    @Html.DisplayNameFor(model => model.message)
+                                </dt>
+
+                                <dd>
+                                    @Html.DisplayFor(model => model.message)
+                                </dd>
+
+                                <dt>
+                                    @Html.DisplayNameFor(model => model.employeeid)
+                                </dt>
+
+                                <dd>
+                                    @Html.DisplayFor(model => model.employeeid)
+                                </dd>
+
+                            </dl>
+                        </div>
+
+                        <p>
+                            @*@Html.ActionLink("Edit", "Edit", new { id = Model.id }) |*@
+                            @Html.ActionLink("Back to List", "Index")
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

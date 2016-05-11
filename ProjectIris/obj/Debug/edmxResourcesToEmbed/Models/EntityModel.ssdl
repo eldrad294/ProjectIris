@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="IrisBankModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012.Azure" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="accounts">
+    <Key>
+      <PropertyRef Name="accountnumber" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="clientid" Type="int" Nullable="false" />
+    <Property Name="accountnumber" Type="int" Nullable="false" />
+    <Property Name="accounttype" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="accountowner" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="branchname" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="swiftcode" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="iban" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="pin" Type="varchar" MaxLength="45" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'IrisBank.dbo.accounts_log' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="accounts_log">
+    <Key>
+      <PropertyRef Name="id" />
+      <PropertyRef Name="datecreated" />
+      <PropertyRef Name="accountnumber" />
+      <PropertyRef Name="message" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="datecreated" Type="date" Nullable="false" />
+    <Property Name="accountnumber" Type="int" Nullable="false" />
+    <Property Name="message" Type="varchar" MaxLength="45" Nullable="false" />
+  </EntityType>
+  <EntityType Name="clients">
+    <Key>
+      <PropertyRef Name="clientidnumber" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="clientidnumber" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="iriscode" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="title" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="fname" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="lname" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="ssnumber" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="dateofbirth" Type="date" Nullable="false" />
+    <Property Name="maritalstatus" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="employment" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="emailaddress" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="residentaddress" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="country" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="postcode" Type="varchar" MaxLength="45" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'IrisBank.dbo.clients_log' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="clients_log">
+    <Key>
+      <PropertyRef Name="id" />
+      <PropertyRef Name="datecreated" />
+      <PropertyRef Name="clientidnumber" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="datecreated" Type="date" Nullable="false" />
+    <Property Name="clientidnumber" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="message" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="employees">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="idnumber" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="fname" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="sname" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="email" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="employeetypeid" Type="int" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'IrisBank.dbo.employees_log' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="employees_log">
+    <Key>
+      <PropertyRef Name="id" />
+      <PropertyRef Name="datecreated" />
+      <PropertyRef Name="employeeid" />
+      <PropertyRef Name="message" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="datecreated" Type="date" Nullable="false" />
+    <Property Name="employeeid" Type="int" Nullable="false" />
+    <Property Name="message" Type="varchar" MaxLength="45" Nullable="false" />
+  </EntityType>
+  <EntityType Name="employees_types">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="type" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="roledescription" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'IrisBank.dbo.vendor_log' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vendor_log">
+    <Key>
+      <PropertyRef Name="id" />
+      <PropertyRef Name="datecreated" />
+      <PropertyRef Name="vendoridnumber" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="datecreated" Type="date" Nullable="false" />
+    <Property Name="vendoridnumber" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="message" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="vendors">
+    <Key>
+      <PropertyRef Name="vendoridnumber" />
+    </Key>
+    <Property Name="vendorid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="vendoridnumber" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="title" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="fname" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="lname" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="ssnumber" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="dateofbirth" Type="date" Nullable="false" />
+    <Property Name="employment" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="nationality" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="emailaddress" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="residentaddress" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="shopaddress" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="country" Type="varchar" MaxLength="45" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'IrisBank.sys.database_firewall_rules' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="database_firewall_rules">
+    <Key>
+      <PropertyRef Name="id" />
+      <PropertyRef Name="name" />
+      <PropertyRef Name="start_ip_address" />
+      <PropertyRef Name="end_ip_address" />
+      <PropertyRef Name="create_date" />
+      <PropertyRef Name="modify_date" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="start_ip_address" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="end_ip_address" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="create_date" Type="datetime" Nullable="false" />
+    <Property Name="modify_date" Type="datetime" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__employees__emplo__03BB8E22">
+    <End Role="employees_types" Type="Self.employees_types" Multiplicity="1" />
+    <End Role="employees" Type="Self.employees" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="employees_types">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="employees">
+        <PropertyRef Name="employeetypeid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="IrisBankModelStoreContainer">
+    <EntitySet Name="accounts" EntityType="Self.accounts" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="clients" EntityType="Self.clients" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="employees" EntityType="Self.employees" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="employees_types" EntityType="Self.employees_types" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="vendors" EntityType="Self.vendors" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="accounts_log" EntityType="Self.accounts_log" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [accounts_log].[id] AS [id], 
+    [accounts_log].[datecreated] AS [datecreated], 
+    [accounts_log].[accountnumber] AS [accountnumber], 
+    [accounts_log].[message] AS [message]
+    FROM [dbo].[accounts_log] AS [accounts_log]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="clients_log" EntityType="Self.clients_log" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [clients_log].[id] AS [id], 
+    [clients_log].[datecreated] AS [datecreated], 
+    [clients_log].[clientidnumber] AS [clientidnumber], 
+    [clients_log].[message] AS [message]
+    FROM [dbo].[clients_log] AS [clients_log]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="employees_log" EntityType="Self.employees_log" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [employees_log].[id] AS [id], 
+    [employees_log].[datecreated] AS [datecreated], 
+    [employees_log].[employeeid] AS [employeeid], 
+    [employees_log].[message] AS [message]
+    FROM [dbo].[employees_log] AS [employees_log]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vendor_log" EntityType="Self.vendor_log" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vendor_log].[id] AS [id], 
+    [vendor_log].[datecreated] AS [datecreated], 
+    [vendor_log].[vendoridnumber] AS [vendoridnumber], 
+    [vendor_log].[message] AS [message]
+    FROM [dbo].[vendor_log] AS [vendor_log]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="database_firewall_rules" EntityType="Self.database_firewall_rules" store:Type="Views" store:Schema="sys">
+      <DefiningQuery>SELECT 
+    [database_firewall_rules].[id] AS [id], 
+    [database_firewall_rules].[name] AS [name], 
+    [database_firewall_rules].[start_ip_address] AS [start_ip_address], 
+    [database_firewall_rules].[end_ip_address] AS [end_ip_address], 
+    [database_firewall_rules].[create_date] AS [create_date], 
+    [database_firewall_rules].[modify_date] AS [modify_date]
+    FROM [sys].[database_firewall_rules] AS [database_firewall_rules]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK__employees__emplo__03BB8E22" Association="Self.FK__employees__emplo__03BB8E22">
+      <End Role="employees_types" EntitySet="employees_types" />
+      <End Role="employees" EntitySet="employees" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="Default Web Site" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\eldra\\documents\\visual\ studio\ 2015\\Projects\\ProjectIris\\ProjectIris\\obj\\Debug\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\eldra\\documents\\visual\ studio\ 2015\\Projects\\ProjectIris\\ProjectIris\\obj\\Debug\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="Add write permission to App_Data Folder" description="Add write permission to App_Data folder" value="Default Web Site/App_Data" tags="Hidden">
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\eldra\\documents\\visual\ studio\ 2015\\Projects\\ProjectIris\\ProjectIris\\obj\\Debug\\Package\\PackageTmp\\App_Data$" />
+  </parameter>
+  <parameter name="Entities-Web.config Connection String" description="" value="metadata=res://*/Models.EntityModels.csdl|res://*/Models.EntityModels.ssdl|res://*/Models.EntityModels.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=(LocalDb)\MSSQLLocalDB;attachdbfilename=|DataDirectory|\aspnet-ProjectIris-20160113010012.mdf;initial catalog=aspnet-ProjectIris-20160113010012;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\eldra\\documents\\visual\ studio\ 2015\\Projects\\ProjectIris\\ProjectIris\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Entities']/@connectionString" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." value="Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\aspnet-ProjectIris-20160113010012.mdf;Initial Catalog=aspnet-ProjectIris-20160113010012;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\eldra\\documents\\visual\ studio\ 2015\\Projects\\ProjectIris\\ProjectIris\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+</parameters>

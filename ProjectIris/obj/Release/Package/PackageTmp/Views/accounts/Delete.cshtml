@@ -1,0 +1,122 @@
+﻿@model ProjectIris.Models.account
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<!-- Main Content -->
+<div class="container-fluid">
+    <div class="side-body">
+        <div class="page-title">
+            <span class="title">Account Table</span>
+            <div class="description">Remove account from list</div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">
+                            <div class="title">Table</div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h3>Are you sure you want to delete this?</h3>
+                        <div>
+                            <dl class="dl-horizontal">
+                                <dt>
+                                    @Html.DisplayNameFor(model => model.id)
+                                </dt>
+
+                                <dd>
+                                    @Html.DisplayFor(model => model.id)
+                                </dd>
+
+                                <dt>
+                                    @Html.DisplayNameFor(model => model.client.clientidnumber)
+                                </dt>
+
+                                <dd>
+                                    @Html.DisplayFor(model => model.client.clientidnumber)
+                                </dd>
+
+                                <dt>
+                                    @Html.DisplayNameFor(model => model.accountnumber)
+                                </dt>
+
+                                <dd>
+                                    @Html.DisplayFor(model => model.accountnumber)
+                                </dd>
+
+                                <dt>
+                                    @Html.DisplayNameFor(model => model.accounttype)
+                                </dt>
+
+                                <dd>
+                                    @Html.DisplayFor(model => model.accounttype)
+                                </dd>
+
+                                <dt>
+                                    @Html.DisplayNameFor(model => model.bank.bankname)
+                                </dt>
+
+                                <dd>
+                                    @Html.DisplayFor(model => model.bank.bankname)
+                                </dd>
+
+                                <dt>
+                                    @Html.DisplayNameFor(model => model.bank.swiftcode)
+                                </dt>
+                                <dd>
+                                    @Html.DisplayFor(model => model.bank.swiftcode)
+                                </dd>
+
+                                <dt>
+                                    @Html.DisplayNameFor(model => model.bank.branchcode)
+                                </dt>
+                                <dd>
+                                    @Html.DisplayFor(model => model.bank.branchcode)
+                                </dd>
+                                <dt>
+                                    @Html.DisplayNameFor(model => model.iban)
+                                </dt>
+
+                                <dd>
+                                    @Html.DisplayFor(model => model.iban)
+                                </dd>
+
+                                <dt>
+                                    @Html.DisplayNameFor(model => model.pin)
+                                </dt>
+
+                                <dd>
+                                    @Html.DisplayFor(model => model.pin)
+                                </dd>
+
+                                <dt>
+                                    @Html.DisplayNameFor(model => model.balance)
+                                </dt>
+
+                                <dd>
+                                    @Html.DisplayFor(model => model.balance)
+                                </dd>
+
+                            </dl>
+
+                            @using (Html.BeginForm())
+                            {
+                                @Html.AntiForgeryToken()
+
+                                <div class="form-actions no-color">
+                                    <input type="submit" value="Delete" class="btn btn-default" /> |
+                                    @Html.ActionLink("Back to List", "Index")
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,59 @@
+﻿@model IEnumerable<ProjectIris.Models.bank>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="container-fluid">
+    <div class="side-body">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">
+                            <div class="title">Create Client</div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+
+                        <table class="table">
+                            <tr>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.bankname)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.swiftcode)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.branchcode)
+                                </th>
+                                <th></th>
+                            </tr>
+
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.bankname)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.swiftcode)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.branchcode)
+                                    </td>
+                                    <td>
+                                        @Html.ActionLink("Edit", "Edit", new { id = item.id }) |
+                                        @Html.ActionLink("Details", "Details", new { id = item.id }) |
+                                        @Html.ActionLink("Delete", "Delete", new { id = item.id })
+                                    </td>
+                                </tr>
+                            }
+
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

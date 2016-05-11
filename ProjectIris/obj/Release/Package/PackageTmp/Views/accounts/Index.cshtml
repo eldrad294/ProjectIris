@@ -1,0 +1,95 @@
+﻿@model IEnumerable<ProjectIris.Models.account>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<!-- Main Content -->
+<div class="container-fluid">
+    <div class="side-body">
+        <div class="page-title">
+            <span class="title">Account Table</span>
+            <div class="description">Displays all bank accounts enrolled using the Bank Iris scheme</div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">
+                            <div class="title">Table</div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <table class="table">
+                            <tr>
+                                @*<th>
+                                    @Html.DisplayNameFor(model => model.id)
+                                </th>*@
+                                <th>
+                                    @Html.DisplayNameFor(model => model.client.clientidnumber)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.client.fname)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.accountnumber)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.bank.bankname)
+                                </th>
+                                @*<th>
+                                    @Html.DisplayNameFor(model => model.swiftcode)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.iban)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.pin)
+                                </th>*@
+                                <th></th>
+                            </tr>
+
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    @*<td>
+                                        @Html.DisplayFor(modelItem => item.id)
+                                    </td>*@
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.client.clientidnumber)
+                                    </td>
+                                    <th>
+                                        @Html.DisplayFor(modelItem => item.client.fname)
+                                    </th>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.accountnumber)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.bank.bankname)
+                                    </td>
+                                    @*<td>
+                                        @Html.DisplayFor(modelItem => item.swiftcode)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.iban)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.pin)
+                                    </td>*@
+                                    <td>
+                                        @*@Html.ActionLink("Edit", "Edit", new { id = item.id }) |*@
+                                        @Html.ActionLink("Details", "Details", new { id = item.id }) |
+                                        @Html.ActionLink("Delete", "Delete", new { id = item.id })
+                                    </td>
+                                </tr>
+                            }
+
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

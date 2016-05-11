@@ -1,0 +1,125 @@
+﻿@model IEnumerable<ProjectIris.Models.client>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<!-- Main Content -->
+<div class="container-fluid">
+    <div class="side-body">
+        <div class="page-title">
+            <span class="title">Clients Table</span>
+            <div class="description">Table detailing all the enrolled people in the Iris Bank Scheme</div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">
+                            <div class="title">Table</div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <table class="table">
+                            <tr>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.id)
+                                </th>
+                                @*<th>
+                                    @Html.DisplayNameFor(model => model.iriscode)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.title)
+                                </th>*@
+                                <th>
+                                    @Html.DisplayNameFor(model => model.fname)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.lname)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.ssnumber)
+                                </th>
+                                @*<th>
+                                    @Html.DisplayNameFor(model => model.dateofbirth)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.maritalstatus)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.employment)
+                                </th>*@
+                                @*<th>
+                                    @Html.DisplayNameFor(model => model.emailaddress)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.residentaddress)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.country)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.postcode)
+                                </th>*@
+                                <th></th>
+                            </tr>
+
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.id)
+                                    </td>
+                                    @*<td>
+                                        @Html.DisplayFor(modelItem => item.iriscode)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.title)
+                                    </td>*@
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.fname)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.lname)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.ssnumber)
+                                    </td>
+                                    @*<td>
+                                        @Html.DisplayFor(modelItem => item.dateofbirth)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.maritalstatus)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.employment)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.emailaddress)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.residentaddress)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.country)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.postcode)
+                                    </td>*@
+                                    <td>
+                                        @Html.ActionLink("Edit", "Edit", new { id = item.id }) |
+                                        @Html.ActionLink("Details", "Details", new { id = item.id }) |
+                                        @Html.ActionLink("Delete", "Delete", new { id = item.id })
+                                    </td>
+                                </tr>
+                            }
+
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

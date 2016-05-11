@@ -1,0 +1,55 @@
+﻿@model ProjectIris.Models.bank
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<div class="container-fluid">
+    <div class="side-body">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">
+                            <div class="title">Bank Details</div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div>
+                            <dl class="dl-horizontal">
+                                <dt>
+                                    @Html.DisplayNameFor(model => model.bankname)
+                                </dt>
+
+                                <dd>
+                                    @Html.DisplayFor(model => model.bankname)
+                                </dd>
+
+                                <dt>
+                                    @Html.DisplayNameFor(model => model.swiftcode)
+                                </dt>
+
+                                <dd>
+                                    @Html.DisplayFor(model => model.swiftcode)
+                                </dd>
+
+                                <dt>
+                                    @Html.DisplayNameFor(model => model.branchcode)
+                                </dt>
+
+                                <dd>
+                                    @Html.DisplayFor(model => model.branchcode)
+                                </dd>
+
+                            </dl>
+                        </div>
+                        <p>
+                            @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
+                            @Html.ActionLink("Back to List", "Index")
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

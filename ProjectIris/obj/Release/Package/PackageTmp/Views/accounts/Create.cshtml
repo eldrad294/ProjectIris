@@ -1,0 +1,155 @@
+﻿@model ProjectIris.Models.account
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<div class="container-fluid">
+    <div class="side-body">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">
+                            <div class="title">Create Account</div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+
+                        @using (Html.BeginForm())
+                        {
+                            @Html.AntiForgeryToken()
+
+                            <div class="form-horizontal">
+                                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.clientid, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @*@Html.EditorFor(model => model.clientid, new { htmlAttributes = new { @class = "form-control" } })*@
+                                        @Html.DropDownList("clientid", null, htmlAttributes: new { @class = "form-control" })
+                                        @Html.ValidationMessageFor(model => model.clientid, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.accountnumber, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EditorFor(model => model.accountnumber, new { htmlAttributes = new { @class = "form-control", @readonly="true", id="accountnumber"} })
+                                        @Html.ValidationMessageFor(model => model.accountnumber, "", new { @class = "text-danger"})
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.accounttype, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @*@Html.EditorFor(model => model.accounttype, new { htmlAttributes = new { @class = "form-control" } })*@
+                                        <select class="form-control" name="accounttype">
+                                            @foreach (var item in ViewBag.AccountTypes)
+                                            {
+                                                <option>
+                                                    @item
+                                                </option>
+                                            }
+                                        </select>
+                                        @Html.ValidationMessageFor(model => model.accounttype, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.bank.bankname, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @*@Html.EditorFor(model => model.bank, new { htmlAttributes = new { @class = "form-control" } })*@
+                                        @Html.DropDownList("bankid", null, htmlAttributes: new { @class = "form-control", id="bankname" })
+                                        @*@Html.ValidationMessageFor(model => model.bank.bankname, "", new { @class = "text-danger" })*@
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.bank.branchcode, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @*@Html.EditorFor(model => model.swiftcode, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })*@
+                                        @Html.DropDownList("branchcode", null, htmlAttributes: new { @class = "form-control", @disabled = "true", id="branchcode" })
+                                        @*@Html.ValidationMessageFor(model => model.bank.branchcode, "", new { @class = "text-danger" })*@
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.bank.swiftcode, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @*@Html.EditorFor(model => model.swiftcode, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })*@
+                                        @Html.DropDownList("swiftcode", null, htmlAttributes: new { @class = "form-control", @disabled = "true", id="swiftcode" })
+                                        @*@Html.ValidationMessageFor(model => model.bank.swiftcode, "", new { @class = "text-danger" })*@
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.iban, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EditorFor(model => model.iban, new { htmlAttributes = new { @class = "form-control", @readonly = "true", id="iban" } })
+                                        @Html.ValidationMessageFor(model => model.iban, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                @*<div class="form-group">
+                                    @Html.LabelFor(model => model.pin, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EditorFor(model => model.pin, new { htmlAttributes = new { @class = "form-control", @disabled = "true" } })
+                                        @Html.ValidationMessageFor(model => model.pin, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>*@
+
+                                @Html.HiddenFor(model => model.pin)
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.balance, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EditorFor(model => model.balance, new { htmlAttributes = new { @class = "form-control"} })
+                                        @Html.ValidationMessageFor(model => model.balance, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="col-md-offset-2 col-md-10">
+                                        <input type="submit" value="Create" class="btn btn-default" />
+                                    </div>
+                                </div>
+                            </div>
+                        }
+
+                        <div>
+                            @Html.ActionLink("Display All Accounts", "Index")
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    document.getElementById("iban").value = generateIBAN();
+
+    $('#bankname').on('change', function (ev) {
+        var index = ev.target.selectedIndex;
+        document.getElementById("branchcode").selectedIndex = index;
+        document.getElementById("swiftcode").selectedIndex = index;
+        document.getElementById("iban").value = generateIBAN();
+        //document.getElementById("bankid").value = index;
+    });
+
+    function generateIBAN() {
+        var NationalityCode = "MT";
+        var CheckCode = "31";
+        var SwiftCode = $("#swiftcode option:selected").html();
+        var BIC = SwiftCode.substring(0, 4);
+        var BranchCode = $("#branchcode option:selected").html();
+        var AccountNumber = $("#accountnumber").val();
+
+        return NationalityCode + CheckCode + BIC + BranchCode + AccountNumber;
+    }
+</script>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryval")
+}

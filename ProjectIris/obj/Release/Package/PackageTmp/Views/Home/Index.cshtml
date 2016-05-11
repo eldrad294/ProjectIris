@@ -1,0 +1,289 @@
+﻿@model IEnumerable<ProjectIris.Models.MessageLogViewModel>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/canvasjs/1.7.0/canvasjs.min.js"></script>
+<div class="container-fluid">
+    <div class="side-body padding-top">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                <a href="#">
+                    <div class="card red summary-inline">
+                        <div class="card-body">
+                            <i class="icon fa fa-inbox fa-4x"></i>
+                            <div class="content">
+                                <div class="title">@ViewBag.ClientCount</div>
+                                <div class="sub-title">Clients</div>
+                            </div>
+                            <div class="clear-both"></div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                <a href="#">
+                    <div class="card yellow summary-inline">
+                        <div class="card-body">
+                            <i class="icon fa fa-comments fa-4x"></i>
+                            <div class="content">
+                                <div class="title">@ViewBag.EmployeeCount</div>
+                                <div class="sub-title">Employees</div>
+                            </div>
+                            <div class="clear-both"></div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                <a href="#">
+                    <div class="card green summary-inline">
+                        <div class="card-body">
+                            <i class="icon fa fa-tags fa-4x"></i>
+                            <div class="content">
+                                <div class="title">@ViewBag.AccountCount</div>
+                                <div class="sub-title">Accounts</div>
+                            </div>
+                            <div class="clear-both"></div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                <a href="#">
+                    <div class="card blue summary-inline">
+                        <div class="card-body">
+                            <i class="icon fa fa-share-alt fa-4x"></i>
+                            <div class="content">
+                                <div class="title">@ViewBag.Purchases</div>
+                                <div class="sub-title">Purchases</div>
+                            </div>
+                            <div class="clear-both"></div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="row  no-margin-bottom">
+            <div class="col-sm-6 col-xs-12">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="card primary">
+                            <div class="card-jumbotron no-padding">
+                                @*<canvas id="jumbotron-line-chart" class="chart no-padding"></canvas>*@
+                                <div id="chartContainer" style="height: 300px; width: 100%;"></div>
+                            </div>
+                            @*<div class="card-body half-padding">
+                                <h4 class="float-left no-margin font-weight-300">Clients Enrolled</h4>
+                                <h2 class="float-right no-margin font-weight-300">P/Yr</h2>
+                                <div class="clear-both"></div>
+                            </div>*@
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="thumbnail no-margin-bottom">
+                            <img src="~/Content/img/thumbnails/picjumbo.com_IMG_3241.jpg" class="img-responsive">
+                            <div class="caption">
+                                <h3 id="thumbnail-label">Sammut Gabriel<a class="anchorjs-link" href="#thumbnail-label"><span class="anchorjs-icon"></span></a></h3>
+                                <p>Automated POS Based On Eye Pattern Identification</p>
+                                <p>3rd Year Bsc Software Development</p>
+                                @*<p><a href="#" class="btn btn-success" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>*@
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="thumbnail no-margin-bottom">
+                            <img src="~/Content/img/thumbnails/picjumbo.com_IMG_4566.jpg" class="img-responsive">
+                            <div class="caption">
+                                <h3 id="thumbnail-label">Iris Bank<a class="anchorjs-link" href="#thumbnail-label"><span class="anchorjs-icon"></span></a></h3>
+                                <p>This is an FYP Thesis aimed at testing the idea of day to day transactions using the Iris Biometric. Imagine carrying out purchases with a simple scan of your eye, without any reliance on cash cards and PIN numbers. Read more in my FYP writeup..</p>
+                                <p><a href="#" class="btn btn-primary" role="button">Read More</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-xs-12">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="card primary">
+                            <div class="card-jumbotron no-padding">
+                                <div id="chartContainer2" style="height: 300px; width: 100%;"></div>
+                            </div>
+                            @*<div class="card-body half-padding">
+                                <h4 class="float-left no-margin font-weight-300">Orders</h4>
+                                <div class="clear-both"></div>
+                            </div>*@
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="card primary">
+                            <div class="card-jumbotron no-padding">
+                                <div id="chartContainer3" style="height: 300px; width: 100%;"></div>
+                            </div>
+                            @*<div class="card-body half-padding">
+                                <h4 class="float-left no-margin font-weight-300">Pages view</h4>
+                                <div class="clear-both"></div>
+                            </div>*@
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-success">
+                    <div class="card-header">
+                        <div class="card-title">
+                            <div class="title"><i class="fa fa-comments-o"></i> Log Box</div>
+                        </div>
+                        <div class="clear-both"></div>
+                    </div>
+                    <div class="card-body no-padding">
+                        <ul class="message-list">
+                            @foreach (var item in Model)
+                            {
+                                <a href="#">
+                                    <li>
+                                        @*<img src="~/Content/img/profile/profile-1.jpg" class="profile-img pull-left">*@
+                                        @if (item.type == "employeelogs")
+                                        {
+                                            <span class="profile-img pull-left icon fa fa-desktop fa-4x"></span>
+                                        }
+                                        else if (item.type == "clientlogs")
+                                        {
+                                            <span class="profile-img pull-left icon fa fa-table fa-4x"></span>
+                                        }
+                                        else if (item.type == "accountlogs")
+                                        {
+                                            <span class="profile-img pull-left icon fa fa-file-text-o fa-4x"></span>
+                                        }
+                                        else if (item.type == "purchaselogs")
+                                        {
+                                            <span class="profile-img pull-left icon fa fa-cubes fa-4x"></span>
+                                        }
+                                        <div class="message-block">
+                                            <div>
+                                                <span class="username">@item.message</span> <span class="message-datetime">Created at: @item.datecreated</span>
+                                            </div>
+                                            <div class="message"><b>Log ID:</b> @item.id --- <b>Log Info:</b> @item.info</div>
+                                        </div>
+                                    </li>
+                                </a>
+                            }
+                            @*<a href="#" id="message-load-more">
+                                <li class="text-center load-more">
+                                    <i class="fa fa-refresh"></i> load more..
+                                </li>
+                            </a>*@
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    window.onload = function () {
+        var clientcount = '@ViewBag.ClientCount';
+        var employeecount = '@ViewBag.EmployeeCount';
+        var accountcount = '@ViewBag.AccountCount';
+        var purchases = '@ViewBag.Purchases';
+        var chart = new CanvasJS.Chart("chartContainer",
+        {
+            title: {
+                text: "Iris Bank Categories",
+                fontFamily: "Impact",
+                fontWeight: "normal"
+            },
+
+            legend: {
+                verticalAlign: "bottom",
+                horizontalAlign: "center"
+            },
+            data: [
+            {
+                //startAngle: 45,
+                indexLabelFontSize: 20,
+                indexLabelFontFamily: "Garamond",
+                indexLabelFontColor: "darkgrey",
+                indexLabelLineColor: "darkgrey",
+                indexLabelPlacement: "outside",
+                type: "doughnut",
+                showInLegend: true,
+                dataPoints: [
+                    { y: clientcount, legendText: clientcount + " Clients", indexLabel: clientcount + " Clients" },
+                    { y: employeecount, legendText: employeecount + " Employees", indexLabel: employeecount + " Employees" },
+                    { y: accountcount, legendText: accountcount + " Accounts", indexLabel: accountcount + " Accounts" },
+                    { y: purchases, legendText: purchases + " Purchases", indexLabel: purchases + " Purchases" }
+                    //,{ y: 5, legendText: "Others 5%", indexLabel: "Others 5%" }
+                ]
+            }
+            ]
+        });
+
+        chart.render();
+    }
+
+    var YearPurchases = new Array();
+    var array = @Html.Raw(Json.Encode(@ViewBag.YearPurchases));
+    for(var i =0; i<array.length;i++){
+        YearPurchases[i] = array[i];
+    }
+    var chart2 = new CanvasJS.Chart("chartContainer2",
+	{
+	    animationEnabled: true,
+	    title: {
+	        text: "Purchases Over Year"
+	    },
+	    data: [
+		{
+		    type: "line", //change type to bar, line, area, pie, etc
+		    dataPoints: [
+				{ x: 10, y: YearPurchases[11] },
+				{ x: 20, y: YearPurchases[10] },
+				{ x: 30, y: YearPurchases[9] },
+				{ x: 40, y: YearPurchases[8] },
+				{ x: 50, y: YearPurchases[7] },
+				{ x: 60, y: YearPurchases[6] },
+				{ x: 70, y: YearPurchases[5] },
+				{ x: 80, y: YearPurchases[4] },
+				{ x: 90, y: YearPurchases[3] },
+                { x: 100, y: YearPurchases[2] },
+                { x: 110, y: YearPurchases[1] },
+                { x: 120, y: YearPurchases[0] }
+		    ]
+		}
+	    ]
+	});
+
+    chart2.render();
+
+    var EnrolledClients = new Array();
+    var array = @Html.Raw(Json.Encode(@ViewBag.EnrolledClients));
+    for(var i =0; i<array.length;i++){
+        EnrolledClients[i] = array[i];
+    }
+    var chart3 = new CanvasJS.Chart("chartContainer3",
+	{
+	    animationEnabled: true,
+	    title: {
+	        text: "Client Enrolled Timeline"
+	    },
+	    data: [
+		{
+		    type: "area", //change type to bar, line, area, pie, etc
+		    dataPoints: [
+				{ x: 10, y: EnrolledClients[11] },
+				{ x: 20, y: EnrolledClients[10] },
+				{ x: 30, y: EnrolledClients[9] },
+				{ x: 40, y: EnrolledClients[8] },
+				{ x: 50, y: EnrolledClients[7] },
+				{ x: 60, y: EnrolledClients[6] },
+				{ x: 70, y: EnrolledClients[5] },
+				{ x: 80, y: EnrolledClients[4] },
+				{ x: 90, y: EnrolledClients[3] },
+                { x: 100, y: EnrolledClients[2] },
+                { x: 110, y: EnrolledClients[1] },
+                { x: 120, y: EnrolledClients[0] }
+		    ]
+		}
+	    ]
+	});
+
+    chart2.render();
+</script>

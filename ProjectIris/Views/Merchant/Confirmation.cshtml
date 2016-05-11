@@ -1,0 +1,57 @@
+﻿@model IEnumerable<ProjectIris.Models.account>
+@{
+    ViewBag.Title = "Create";
+}
+
+<div class="container-fluid">
+    <div class="side-body">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">
+                            <div class="title">Confirm Purchase</div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <table class="table">
+                            <tr>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.accountnumber)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.bank.bankname)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.balance)
+                                </th>
+                            </tr>
+
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.accountnumber)
+                                    </td>
+                                    <th>
+                                        @Html.DisplayFor(modelItem => item.bank.bankname)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayFor(modelItem => item.balance)
+                                    </th>
+                                    <td>
+                                        @Html.ActionLink("Choose Account", "FinalConfirmation", new { id = item.id })
+                                    </td>
+                                </tr>
+                            }
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

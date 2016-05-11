@@ -1,0 +1,117 @@
+﻿@model ProjectIris.Models.account
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div class="container-fluid">
+    <div class="side-body">
+        <div class="page-title">
+            <span class="title">Purchase</span>
+            <div class="description">Confirm your purchase before checking out</div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">
+                            <div class="title">Table</div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div>
+                            @using (Html.BeginForm())
+                            {
+                                @Html.AntiForgeryToken()
+                                <dl class="dl-horizontal">
+                                    <dt>
+                                        @Html.DisplayNameFor(model => model.id)
+                                    </dt>
+
+                                    <dd>
+                                        @Html.DisplayFor(model => model.id)
+                                    </dd>
+
+                                    <dt>
+                                        @Html.DisplayNameFor(model => model.client.clientidnumber)
+                                    </dt>
+
+                                    <dd>
+                                        @Html.DisplayFor(model => model.client.clientidnumber)
+                                    </dd>
+
+                                    <dt>
+                                        @Html.DisplayNameFor(model => model.accountnumber)
+                                    </dt>
+
+                                    <dd>
+                                        @Html.DisplayFor(model => model.accountnumber)
+                                    </dd>
+
+                                    <dt>
+                                        @Html.DisplayNameFor(model => model.accounttype)
+                                    </dt>
+
+                                    <dd>
+                                        @Html.DisplayFor(model => model.accounttype)
+                                    </dd>
+
+                                    <dt>
+                                        @Html.DisplayNameFor(model => model.bank.bankname)
+                                    </dt>
+
+                                    <dd>
+                                        @Html.DisplayFor(model => model.bank.bankname)
+                                    </dd>
+
+                                    <dt>
+                                        @Html.DisplayNameFor(model => model.bank.swiftcode)
+                                    </dt>
+                                    <dd>
+                                        @Html.DisplayFor(model => model.bank.swiftcode)
+                                    </dd>
+
+                                    <dt>
+                                        @Html.DisplayNameFor(model => model.bank.branchcode)
+                                    </dt>
+                                    <dd>
+                                        @Html.DisplayFor(model => model.bank.branchcode)
+                                    </dd>
+                                    <dt>
+                                        @Html.DisplayNameFor(model => model.iban)
+                                    </dt>
+
+                                    <dd>
+                                        @Html.DisplayFor(model => model.iban)
+                                    </dd>
+                                
+                                    <dt>
+                                        @Html.DisplayNameFor(model => model.balance)
+                                    </dt>
+
+                                    <dd>
+                                        @Html.DisplayFor(model => model.balance)
+                                    </dd>
+
+                                </dl>
+                                <p>
+                                    @Html.HiddenFor(model => model.id)
+                                    @Html.HiddenFor(model => model.clientid)
+                                    @Html.HiddenFor(model => model.accountnumber)
+                                    @Html.HiddenFor(model => model.accounttype)
+                                    @Html.HiddenFor(model => model.bankid)
+                                    @Html.HiddenFor(model => model.iban)
+                                    @Html.HiddenFor(model => model.pin)
+                                    @Html.HiddenFor(model => model.balance)
+                                    <input type="submit" value="Confirm Payment" class="btn btn-default" />
+                                </p>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
